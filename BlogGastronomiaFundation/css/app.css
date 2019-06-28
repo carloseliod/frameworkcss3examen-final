@@ -1,0 +1,74 @@
+
+
+    body {
+        background-image: url(../img/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+
+.titulo{
+    border-right: 2px solid white; 
+    padding-bottom: 30px;
+    background: #06b0f4;
+
+}
+
+.blanco{
+    background: #06b0f4;
+    margin-bottom: 10px;
+    
+}
+.borde{
+    border: 1px solid white;
+}
+
+.boton{
+    margin-left:-30px;
+}
+.icono{
+    background: #3adb76;
+}
+
+.inicio{
+    width: 82%;
+
+}
+
+.favoritos{
+    background:  #06b0f4 !important;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.fotos-abajo{
+    margin-top: 5px;
+}
+.texto-historial{
+    color:brown;
+}
+
+.final-favoritos{
+    min-height: 250px;
+    background-color: blue;
+}
+
+.contenido-central{
+    background-color: blueviolet;
+    color: white;
+    margin-right: -10px;
+
+    margin-left: 10px;
+}
+
+.imagen-comida{
+    width:40%;
+    height: 40%;
+}
+
+.central{
+    margin-bottom: 10px;
+}

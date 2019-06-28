@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Blog de Musica</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- Enlace de Fontawesome -->
+    <script src="https://kit.fontawesome.com/cf89312b71.js"></script>
+    <!--Archivo CSS de Boostrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Fuente de Open Sans y Roboto (Tipografia)-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500&display=swap" rel="stylesheet">
+    <!-- Fuente Rubik Mono One -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet"> 
+    <!--Fuente Cutive Mono -->
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet"> 
+    <!--Agregar Iconos-->
+    <link rel="stylesheet" href="css/fontello.css">
+     <!--Archivo CSS Personalizado-->
+     <link rel="stylesheet" href="css/miestilo.css">
+</head>
+<body>  
+          <!-- Contenedor Principal -->
+          <div class="container">
+                   <!-- Cabecera -->
+                   <header class="row">
+                <!-- Columna para el logo -->
+                <!-- Flex box para que el logo se ubique al centro en dispositivos pequeños y mediano y de grandes se ubique al inicio -->
+                <div class="logo col-sm-12 d-flex justify-content-center align-items-center col-md-6 justify-content-sm-start align-items-sm-center">
+                      <picture>
+                  <!--Imgaen del logo-->
+                          <img class="imagen-logo" class="imagen-logo img-fluid" src="img/logo.png">
+                      </picture>
+                  </div>
+                  <!-- Columna Redes Sociales -->
+                  <!-- Columna para el logo -->
+                <!-- Flex box para que los iconos  se ubique al centro en dispositivos pequeños y mediano y de grandes se ubique al final  -->
+                  <div class="iconos col-sm-12 d-flex justify-content-center align-items-center col-md-6 justify-content-sm-end align-items-sm-end">
+                  <!--Iconos de  Redes Sociales-->    
+                              <a class href="https://www.youtube.com/"><i class="fab fa-youtube"></i> </a>                     
+                              <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                              <a href="https://www.instagram.com/?hl=es"><i class="fab fa-instagram"></i></a>
+                              <a href="https://www.pinterest.es/"><i class="fab fa-pinterest"></i></a>
+                              <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>              
+                  </div>
+                   </header>
+                <!--Navbar-->
+                <nav class="row navbar navbar-expand-lg navbar-dark bg-dark">
+                    <!-- .container nos permite centrar el contenido de nuestro menu, esta clase es opcional y podemos encerrar el menu <nav> o incluir el contenedor dentro del <nav> -->
+                    <div class="container">
+                      <!-- Nos sirve para agregar un logotipo al menu -->
+                      <a href="#" class="navbar-brand">Menu</a>
+                      
+                      <!-- Nos permite usar el componente collapse para dispositivos moviles -->
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Menu de Navegacion">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      
+                      <div class="menu collapse navbar-collapse" id="navbar">
+                        <ul class="col navbar-nav mr-auto justify-content-around">
+                          <li class="nav-item active">
+                            <a href="#" class="nav-link">Inicio <span class="sr-only">(Actual)</span></a>
+                          </li>
+                          <li class="nav-item active">
+                              <a href="#" class="nav-link">Artistas <span class="sr-only">(Actual)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link">Grupos <span class="sr-only">(Actual)</span></a>
+                              </li>
+                              <li class="nav-item active">
+                                  <a href="#" class="nav-link">Top 10 <span class="sr-only">(Actual)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a href="#" class="nav-link">Letras <span class="sr-only">(Actual)</span></a>
+                                  </li>
+                                  <li class="nav-item active">
+                                      <a href="#" class="nav-link">Acordes <span class="sr-only">(Actual)</span></a>
+                                    </li>
+                        
+                        </ul>
+  
+                      </div>
+                    </div>
+                </nav>
+                <!-- Seccion de Contenido Parte I -->    
+                    <!-- Seccion del Contenido + Imagen -->
+                <section class="row mt-4 contenido ">    
+
+                <div class="col-sm-12 col-lg-8">
+                   <div class="row">
+
+                          <!-- Imagen-->                   
+                          <div class="row mt-5">
+                              <!-- Foto -->
+                              <div class="col-sm-12 col-md-4 foto-cotenido d-flex justify-content-center align-items-center order-2 mb-3">                                
+                                    <img src="img/nino.jpg" class="img-fluid">                                
+                               </div>
+                          <!-- Texto -->
+                                  <div class="col-sm-12 col-md-8 texto-cotenido">
+                                    <p class="display-4 text-capitalize text-center order-1">Nino Bravo</p>
+                                        <p class="text-justify pl-4 pt-3">
+                                            Cuarenta años nos separan de la trágica muerte de Nino Bravo. El 16 de abril de 1973 había salido a temprana hora de su casa de Valencia, conduciendo un BMW-2800, matrícula GC-66192, que había adquirido pocos meses antes en un local de compra-venta de automóviles cercano a su oficina de contratación, allí, en la capital levantin
+                                        </p>
+                                  </div>
+                              </div>
+                              
+                    
+                      <!-- Comentarios 1-->         
+                  <div class="row comentario">
+                        <!-- Imagen -->
+                          <div class="col-2 imagen-comentario pb-3 flex-column align-items-center">
+                              <img  src="img/contacto.png" class="img-fluid">
+                          </div>
+  
+                          <!-- Texto -->
+                          <div class="col-10 align-items-center">
+                              <form action="" class="comentarios form-comentarios mb-5">
+                                  <textarea name="mensaje" id="mensaje" class="form-control"></textarea>	
+                              </form>
+                          </div>
+                  </div>
+  
+
+                   </div>
+                   <div class="row">
+
+                      <!-- Imagen 2-->                   
+                      <div class="row mt-5">
+                          <!-- Foto -->
+                          <div class="col-sm-12 col-md-4 foto-cotenido d-flex justify-content-center align-items-center mb-3">                                
+                                <img src="img/camilo.jpg" class="img-fluid">                                
+                           </div>
+                      <!-- Texto 2-->
+                              <div class="col-sm-12 col-md-8 texto-cotenido">
+                                <p class="display-4 text-capitalize text-center order-1">Camilo Sexto</p>
+                                    <p class="text-justify pt-3 pl-4  ">
+                                        Camilo Blanes Cortés, más conocido por su nombre artístico Camilo Sesto, es un cantante, compositor e intérprete español de balada romántica, pop y rock. Es uno de los cantantes insignia de España, galardonado en 2011 con la medalla «Máximo orgullo hispano» entregado en la ciudad de Las Vegas en Estados Unidos.
+                                    </p>
+                              </div>
+                          </div>
+                          
+                
+                  <!-- Comentarios 1-->         
+              <div class="row comentario">
+                    <!-- Imagen -->
+                      <div class="col-2 imagen-comentario pb-3 flex-column align-items-center">
+                          <img  src="img/contacto.png" class="img-fluid">
+                      </div>
+
+                      <!-- Texto -->
+                      <div class="col-10 align-items-center">
+                          <form action="" class="comentarios form-comentarios mb-5">
+                              <textarea name="mensaje" id="mensaje" class="form-control"></textarea>	
+                          </form>
+                      </div>
+              </div>
+
+
+               </div>
+
+
+                   
+                        
+
+                </div>
+
+
+                
+                 <!-- Seccion para el buscador y lista -->
+                <div class="col d-none d-sm-none d-lg-block mt-3">
+                    <div class="row">
+                            <div class="col- 12 input-group">
+                                    <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+                                    </div>
+                                <input type="text" class="form-control" placeholder="Buscar" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                
+                            </div>  
+                <!-- Lista  -->
+                            <div class="col-12 mt-3 grupos de lista">
+                                    <ul class="list-group">
+                                            <li class="list-group-item">Cras justo odio</li>
+                                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                                            <li class="list-group-item">Morbi leo risus</li>
+                                            <li class="list-group-item">Porta ac consectetur ac</li>
+                                            <li class="list-group-item">Vestibulum at eros</li>
+                                            <li class="list-group-item">Cras justo odio</li>
+                                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                                            <li class="list-group-item">Morbi leo risus</li>
+                                            <li class="list-group-item">Porta ac consectetur ac</li>
+                                            <li class="list-group-item">Vestibulum at eros</li>
+                                            <li class="list-group-item">Cras justo odio</li>
+                                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                                            <li class="list-group-item">Morbi leo risus</li>
+                                            <li class="list-group-item">Porta ac consectetur ac</li>
+                                            <li class="list-group-item">Vestibulum at eros</li>
+                                            <li class="list-group-item">Morbi leo risus</li>
+                                          </ul>
+        
+                            </div>                            
+                    </div>
+                   
+                      
+                </div>
+
+                  
+                </section>
+
+                  
+        </div>
+</body>
+    <!--Agregar el jquery de JS-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+    <!--Agregar el archivo de Pooper-->
+    <script src="js/popper.min.js"></script>
+    <!--Reconocer el js de Boostrap-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--JS Personalizado-->
+    <script src="js/script.js"></script>
+</body>
+</html>

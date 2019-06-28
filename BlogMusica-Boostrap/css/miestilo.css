@@ -1,0 +1,119 @@
+*{
+    font-family:'Cutive Mono', monospace;
+}
+header{
+    background-color: #E6E6FA;
+    min-height: 20px;
+}
+
+/*Fonto al cuerpo*/
+
+body{
+    background: #16ace8  ;
+}
+
+/*Formato para el logo*/
+.imagen-logo{
+    width:2rem;
+    margin: 10px;
+}
+
+
+/*Formato a los iconos*/
+
+.fa-youtube ,
+ .fa-facebook-square , 
+ .fa-instagram, 
+ .fa-pinterest,
+ .fa-twitter{
+
+    padding-left: 2px;
+    padding-right: 2px;
+    color: black;
+
+ }
+
+
+ .fa-youtube{
+    color: #c4302b;
+ }
+ .fa-facebook-square {
+     color: #3b5998;
+ }
+
+ .fa-instagram{
+     color: #8a3ab9;
+ }
+ .fa-pinterest{
+     color: #c8232c ;
+ }
+
+ .fa-twitter{
+     color: #00acee;
+ }
+
+ .fa-youtube:hover ,
+ .fa-facebook-square:hover , 
+ .fa-instagram:hover, 
+ .fa-pinterest:hover,
+ .fa-twitter:hover{
+
+    background-color: (255,255,255,255,.1);
+
+ }
+
+/*Estilos al navegador */
+
+.navegador a{
+
+    font-size: 5px;
+    
+}
+
+.navbar li a {
+
+    color: #fff;
+   }
+   
+   .navbar li a:hover {
+      
+       background-color: rgba(255,255,255,.1);
+       color:#FBC408;
+   }
+   
+   .narvar-brand{
+       color:  #fff;
+   }
+   
+   .narvar-brand:hover {
+       color:#FBC408;
+       background-color: rgba(255,255,255,.1);
+   }
+
+/*Color de Fondo para la seccion*/
+
+section{
+    background: #E6E6FA;
+}
+
+.comentarios{
+    width: 100%;
+}
+
+/*Danto Formato al text Area*/
+
+.mensaje{
+    min-height: 500px;
+}
+
+
+.container{
+    padding: 0;
+    }
+
+    .comentarios textarea{
+        min-height: 80px;
+        max-height: 90px;
+    }
+
+ 

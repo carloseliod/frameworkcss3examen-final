@@ -1,0 +1,112 @@
+body {
+    background-image: url(../img/fonfo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.slogan{
+    color: white;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.iconos{
+    background: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+
+.comentarios-formulario{
+    background: #8a3ab9;
+}
+
+
+
+.perfil{
+    padding-top: 25px;
+}
+
+.fa-youtube{
+    color: #c4302b;
+ }
+ .fa-facebook-square {
+     color: #3b5998;
+ }
+
+ .fa-instagram{
+     color: #8a3ab9;
+ }
+ .fa-pinterest{
+     color: #c8232c ;
+ }
+
+ .fa-twitter{
+     color: #00acee;
+ }
+
+ .fa-youtube:hover ,
+ .fa-facebook-square:hover , 
+ .fa-instagram:hover, 
+ .fa-pinterest:hover,
+ .fa-twitter:hover{
+
+    background-color: (255,255,255,255,.1);
+
+ }
+
+ .cometario {
+     margin-bottom: 10px;
+ }
+
+.seccion-abajo{
+    background:yellowgreen;
+}
+
+
+
+
+/* Dispositivos Pequeños */
+@media only screen
+  and (min-width: 100px) 
+  and (max-width: 900px)
+{
+
+    header{
+        height: 250px;
+        }
+        
+         .navegacion{
+             height: 250px !important;
+         }
+
+         
+         .logo img{
+            padding-top: 100px !important;
+        }
+
+        .slogan{
+            color: white;
+            background: burlywood;
+            font-size: 30px;
+        }
+        
+}
+
+/* Dispotivos Medianos */
+@media only screen
+  and (min-width: 900px) 
+  and (max-width: 1700px)
+{
+
+    header{
+        height: 250px;
+        }
+        
+         .navegacion{
+             height: 150px !important;
+         }
+
+        
+
+
+}
